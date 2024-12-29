@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928578430281",
+    "project_id": "ritik-learning-assignment",
+    "storage_bucket": "ritik-learning-assignment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928578430281:android:06ca597166aec54f4ea698",
+        "android_client_info": {
+          "package_name": "com.ritikassignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1HAJz-3qho9yjO7QODcuodT03iO5iEO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
