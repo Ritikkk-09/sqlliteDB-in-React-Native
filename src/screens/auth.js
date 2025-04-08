@@ -7,7 +7,7 @@ import firestore from '@react-native-firebase/firestore';
 
 
 GoogleSignin.configure({
-  webClientId: 'AIzaSyA1HAJz-3qho9yjO7QODcuodT03iO5iEO8',
+  webClientId: 'AIzaSyA1HAJz-3..............',
   offlineAccess: true,
   scopes: [
     'https://www.googleapis.com/auth/user.gender.read',
