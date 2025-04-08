@@ -16,9 +16,7 @@ const AddUser = () => {
   const [email, setEmail] = useState('');
   const [address, setAddress] = useState('');
   const saveUser = () => {
-    console.log(name, email, address);
-
-
+    // console.log(name, email, address);
     db.transaction(function (tx) {
       tx.executeSql(
         'INSERT INTO table_user (name, email, address) VALUES (?,?,?)',
