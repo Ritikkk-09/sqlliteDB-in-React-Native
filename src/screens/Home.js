@@ -24,7 +24,6 @@ const Home = () => {
   }, [isFocused]);
 
 
-
   const getData = () => {
     db.transaction(tx => {
       tx.executeSql('SELECT * FROM table_user', [], (tx, results) => {
