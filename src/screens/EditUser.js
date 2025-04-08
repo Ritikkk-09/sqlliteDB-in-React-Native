@@ -14,7 +14,7 @@ let db = openDatabase({ name: 'todoDataBase.db' });
 
 const EditUser = () => {
   const route = useRoute();
-  console.log(route.params.data);
+  // console.log(route.params.data);
   const navigation = useNavigation();
   const [name, setName] = useState('');
   const [email, setEmail] = useState(route.params.data.email);
